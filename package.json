@@ -1,0 +1,22 @@
+{
+  "name": "ayucell-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "netlify-cli": "^17.17.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.9.10",
+    "nodemon": "^3.1.0",
+    "serverless-http": "^3.2.0"
+  }
+}
